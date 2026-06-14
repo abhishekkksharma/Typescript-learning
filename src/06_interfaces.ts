@@ -9,7 +9,7 @@ function makeChai(order: ChaiOrderr) {
     console.log(order);   
 }
 
-function serveChai(order: ChaiOrderr) {
+function serveChaii(order: ChaiOrderr) {
     console.log(order);   
 }
 
@@ -28,6 +28,35 @@ interface Cupsize {
 }
 
 class Chaii implements Cupsize{
-    size: "small" | "large" = "large"; 
+    size: "small" | "large" = "large";  //literal types (literally this value is to be assigned)
 }
 
+
+type BaseChai = { teaLeaves: number}
+type Extra = { masala:number}
+
+type NewMasalaChai = BaseChai & Extra;
+const cup : NewMasalaChai = {
+    teaLeaves:2,
+    masala:1
+}
+
+type Userr = {
+    username:string;
+    bio?:string
+}
+
+const u1:Userr = {username:"Abhishek"}
+const u2:Userr = { username:"Abhishek", bio: "Developer"}
+
+type Config = {
+    readonly appName: string
+    version: number
+}
+
+const cfg:Config={
+    appName: "Masterji",
+    version:1
+}
+
+// cfg.appName="Instagram" //not allowed
