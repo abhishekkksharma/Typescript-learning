@@ -30,3 +30,11 @@ function logChai():void {
 function orderChai(type:string="Masala") {
     
 }
+
+function createChai(order:{
+    type:string;
+    sugar:number;
+    size: "small" | "large"
+}):number {
+    return 4;    
+}
