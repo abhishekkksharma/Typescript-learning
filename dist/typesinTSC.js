@@ -1,4 +1,3 @@
-"use strict";
 /*
 The typescript will automatically know that it is
 a string data type and if you wish to change it to
@@ -50,3 +49,4 @@ let dir = "left";
 // assertion
 let val = "hello";
 let len = val.length;
+export {};

@@ -1,4 +1,3 @@
-"use strict";
 function makeChai(order) {
     console.log(order);
 }
@@ -26,4 +25,5 @@ const cfg = {
     appName: "Masterji",
     version: 1
 };
+export {};
 // cfg.appName="Instagram" //not allowed

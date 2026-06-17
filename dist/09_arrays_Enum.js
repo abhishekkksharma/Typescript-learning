@@ -1,4 +1,3 @@
-"use strict";
 const chaiFlavours = ["masala", "adrak"];
 const chaiPrices = [1, 2, 3];
 //different syntax
@@ -44,3 +43,4 @@ function makechai(type) {
     console.log(`Making ${type}`);
 }
 makechai(ChaiType.GINGER);
+export {};

@@ -1,4 +1,3 @@
-"use strict";
 const chai = {
     name: "masala chai",
     price: 20,
@@ -26,3 +25,4 @@ let bigCup = { size: "500ml", material: "steel" };
 smallCup = bigCup;
 const coffee = { brewTime: 5, beans: "Arabica" };
 const chaiBrew = coffee;
+export {};

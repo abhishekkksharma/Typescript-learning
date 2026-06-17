@@ -1,4 +1,3 @@
-"use strict";
 //input types definition
 function makeChai(type, cups) {
     console.log(`Making ${cups} cups of ${type}`);
@@ -26,3 +25,4 @@ function orderChai(type = "Masala") {
 function createChai(order) {
     return 4;
 }
+export {};

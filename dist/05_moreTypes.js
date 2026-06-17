@@ -1,4 +1,3 @@
-"use strict";
 // ANY, UNLNOWN , NEVER -DATATYPES
 let response = "42";
 let numericLength = response.length;
@@ -47,3 +46,4 @@ function redirectBasedonRole(role) {
 function neverReturn() {
     while (true) { }
 }
+export {};

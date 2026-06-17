@@ -79,3 +79,36 @@ const mc = new ModerChai();
 mc.sugar=3; //set
 mc.sugar //get
 
+
+//static members
+
+class EkChai{
+    static shopName = "Chai caffe"
+    constructor (public flavour:string){}
+}
+
+console.log(EkChai.shopName);
+
+
+//abstarct classes 
+abstract class A{
+    abstract make():void
+}
+
+class B extends A{
+    make(): void {
+        console.log("Abstracted method");
+    }
+}
+
+class Heater{
+    heat(){
+
+    }
+}
+class Example{
+    constructor(private heater:Heater){}
+    make(){
+        this.heater.heat
+    }
+}

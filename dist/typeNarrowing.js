@@ -1,4 +1,3 @@
-"use strict";
 function getChai(kind) {
     if (typeof kind === 'string') {
         return `Making ${kind} chai...`;
@@ -58,3 +57,4 @@ function brew(order) {
 }
 function isStringArray(arr) {
 }
+export {};
